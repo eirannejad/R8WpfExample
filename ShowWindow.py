@@ -24,6 +24,12 @@ class MyWindow(System.Windows.Window):
         
         # load xaml
         wpf.LoadComponent(self, xaml_file)
+
+        self.Title = "Custom Window"
+
+        # make rhino window the owner of this window
+        helper = System.Windows.Interop.WindowInteropHelper(self)
+        helper.Owner = Rhino.RhinoApp.MainWindowHandle()
         pass
 
     def do_something(self, sender, args):
