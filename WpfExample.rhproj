@@ -1,0 +1,47 @@
+{
+  "id": "514b1aa2-f680-4ef7-96e4-ff54bea252ab",
+  "identity": {
+    "name": "WpfExample",
+    "version": "0.1",
+    "publisher": {
+      "email": "ehsan@mcneel.com",
+      "name": "Ehsan Iran-Nejad",
+      "company": "McNeel",
+      "phone": "\u002B1 (888)-888 8888",
+      "address": "Pacific Northwest",
+      "country": "USA"
+    }
+  },
+  "settings": {
+    "buildPath": "build/",
+    "buildTarget": {
+      "appName": "Rhino3D",
+      "appVersion": {
+        "major": 8,
+        "minor": 0
+      },
+      "title": "Rhino3D (8.0)",
+      "slug": "rh8_0"
+    },
+    "publishTarget": {
+      "title": "McNeel Yak Server"
+    }
+  },
+  "codes": [
+    {
+      "id": "267f8bb0-6f8e-4304-9c7d-50161ad73eff",
+      "language": {
+        "id": "*.*.python",
+        "version": "2.*.*"
+      },
+      "title": "ShowWindow",
+      "uri": "ShowWindow.py"
+    }
+  ],
+  "resources": [
+    {
+      "id": "789ad86d-0f3d-4628-99bd-8a74deef968a",
+      "uri": "Window.xaml"
+    }
+  ]
+}
